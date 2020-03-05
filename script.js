@@ -17,6 +17,7 @@ function loadPage(info) {
 
     let title = document.createElement("h2")
     title.innerHTML = info.title
+    title.setAttribute("class", "transition")
     page.appendChild(title)
 
     let img = document.createElement("img")

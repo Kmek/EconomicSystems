@@ -8,7 +8,7 @@
 :root {
     --footer: #585858; /* a specific grey */
     --accent: #000000; /* a dark blue */
-    --canvasW: 654px;
+    --minW: 500px;
 }
 
 body {
@@ -18,8 +18,12 @@ body {
 /********** Header **********/
 #header {
 	background-image: linear-gradient(#818181, #0a0a0a, #414141);
-    width: 100%;
-    min-width: calc(var(--canvasW) + 50px);
+    /* width: 100%; */
+    width: calc(75% + 50px);
+	max-width: 775px;
+    min-width: calc(var(--minW) + 50px);
+    margin-left: auto;
+    margin-right: auto;
 	height: 60px;
 	text-align: center;
 	padding-top: 25px;
@@ -33,7 +37,7 @@ body {
     background-color: var(--accent);
 	background-image: url("./media/graph.png");
     width: 100%;
-    min-width: calc(var(--canvasW) + 50px);
+    min-width: calc(var(--minW) + 50px);
     max-width: 100%;
     /* height: 680px; */
     overflow-x: hidden;
@@ -43,7 +47,7 @@ body {
 	background-color: #eeeeee;
 	width: 75%;
 	max-width: 725px;
-	min-width: var(--canvasW);
+	min-width: var(--minW);
 	min-height: 300px;
 	margin-left: auto;
 	margin-right: auto;
@@ -64,7 +68,7 @@ body {
 #footer{
 	background-color: var(--footer);
     width: 100%;
-    min-width: calc(var(--canvasW) + 50px);
+    min-width: calc(var(--minW) + 50px);
 	height: 50px;
 	padding-top: 15px;
 }
@@ -184,29 +188,6 @@ a {
 	font-weight: bold;
 }
 
-canvas {
-    margin-left: calc((100% - var(--canvasW)) / 2);
-    border: 2px solid #000000;
-	border-radius: 5px;
-	background-color: #ffffff;
-}
-
-input[type=number] {
-	width: 75px;
-	height: 40px;
-	margin-left: 25px;
-	/* border-radius: 2px; */
-	border: 1px solid #000000;
-	text-align: center;
-	outline: none;
-}
-/* Remove arrows on side */
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-}
-
 /********** Extra Components **********/
 
 .shadow { /* Creates a shadow on a div or image */
@@ -238,11 +219,3 @@ input[type=number]::-webkit-outer-spin-button {
 .transition, #page, #page hr, #page h1, #page h2, #page h3, #page img, #page mark {
     transition-duration: 2.0s;
 }
-
-/* .slide img {
-	max-width: 35%;
-	max-height: 200px;
-	margin-left: 20px;
-	margin-right: 10px;
-	margin-bottom: 20px;
-} */

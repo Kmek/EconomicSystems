@@ -1,16 +1,10 @@
 // JS for Navigation (goes with navigation.css)
 // Creates navigation buttons so they don't have to be copied
+// Horizontal Navigation Version
 
-const navBtn = document.getElementById("navBtn")
+const navTitles = ["Traditional", "Market", "Command", "Mixed", "MLA"]
 
-const navTitles = ["Scarcity Forces Tradeoffs", "Costs vs. Benefits", "People Think at the Margin", "Incentives Matter", "Trade Makes People Better", "Markets Coordinate Trade", "Future Consequences Count"]
-
-let navDots = document.createElement("h2")
-navDots.innerHTML = "..."
-navBtn.appendChild(navDots)
-
-var navigationDiv = document.createElement("div")
-navigationDiv.setAttribute("id", "navigation")
+var navigationDiv = document.getElementById("navigation")
 
 for (let i = 0; i < navTitles.length; i++) {
     let row = document.createElement("button")
@@ -20,4 +14,3 @@ for (let i = 0; i < navTitles.length; i++) {
 
     navigationDiv.appendChild(row)
 }
-navBtn.appendChild(navigationDiv)
