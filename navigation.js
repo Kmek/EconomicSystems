@@ -10,7 +10,10 @@ for (let i = 0; i < navTitles.length; i++) {
     let row = document.createElement("button")
     row.innerHTML = navTitles[i]
 
-    row.setAttribute("onclick", ("callSlide(" + i + ")"))
+    if (i < navTitles.length - 1) 
+        row.setAttribute("onclick", ("loadPage(pages[" + i + "])"))
+    else 
+        row.setAttribute("onclick", ("console.log('todo')"))
 
     navigationDiv.appendChild(row)
 }

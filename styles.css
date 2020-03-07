@@ -130,11 +130,13 @@ td {
 h1, h2, h3, h4 {
 	margin: 5px 0;
 	color: var(--accent);
+	text-align: center;
 }
 
 p {
 	font-size: 16px;
 	line-height: 24px;
+	text-indent: 25px;
 }
 
 mark {
@@ -143,24 +145,23 @@ mark {
     color: var(--accent);
 }
 
-/* ul {
-	padding: 5px;
+ul {
 	list-style: none;
 }
 ul li::before {
 	width: 20px;
 	display: inline-block;
-	color: var(--accent);
 	content: "\2666";
 	font-size: 20px;
 	font-weight: bold;
 }
 li {
+	padding: 3px 25px;
 	line-height: 24px;
 }
 .sublist { 
 	margin-left: 25px;
-} */
+}
 
 hr {
 	margin: 10px 15px;
@@ -177,8 +178,10 @@ button {
 }
 
 img {
+	width: 80%;
 	border-radius: 5px;
-    border: 2px solid var(--accent);
+	border: 2px solid var(--accent);
+	margin: 10px 10%;
 }
 
 a {

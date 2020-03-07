@@ -19,18 +19,30 @@ function loadPage(info) {
     // page.overflow = "auto"
     // page.innerHTML = ""
 
-    // let title = document.createElement("h2")
-    // title.innerHTML = info.title
-    // title.setAttribute("class", "transition")
-    // page.appendChild(title)
-
-    // let img = document.createElement("img")
-    // img.setAttribute("src", info.img)
-    // page.appendChild(img)
+    // console.log(page.children)
 
     page.children[0].innerHTML = info.title
-
     page.children[1].setAttribute("src", info.img)
+    page.children[2].innerHTML = info.desc
+
+    page.children[4].innerHTML = info.q1
+    page.children[6].innerHTML = info.q2
+    page.children[8].innerHTML = info.q3
+
+    page.children[10].innerHTML = ""
+    for (let i = 0; i < info.positive.length; i++) {
+        let bullet = document.createElement("li")
+        bullet.innerHTML = info.positive[i]
+        page.children[10].appendChild(bullet)
+    }
+    page.children[12].innerHTML = ""
+    for (let i = 0; i < info.negative.length; i++) {
+        let bullet = document.createElement("li")
+        bullet.innerHTML = info.negative[i]
+        page.children[12].appendChild(bullet)
+    }
+
+    page.children[14].innerHTML = info.example
 
     changeAccent(info.color)
 }
