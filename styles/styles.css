@@ -35,7 +35,7 @@ body {
 /********** Page **********/
 #pageBackground {
     background-color: var(--accent);
-	background-image: url("./media/graph.png");
+	background-image: url("../media/graph.png");
     width: 100%;
     min-width: calc(var(--minW) + 50px);
     max-width: 100%;
