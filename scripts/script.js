@@ -50,11 +50,13 @@ function loadLastPage() {
 
     // Fill last page
     lastPage.children[0].innerHTML = lastPageInfo.title
+    lastPage.children[1].innerHTML = ""
     for (let i = 0; i < lastPageInfo.desc.length; i++) {
         let p = document.createElement("p")
         p.innerHTML = lastPageInfo.desc[i]
         lastPage.children[1].appendChild(p)
     }
+    lastPage.children[3].innerHTML = ""
     for (let i = 0; i < lastPageInfo.citations.length; i++) {
         let p = document.createElement("p")
         p.innerHTML = lastPageInfo.citations[i]
