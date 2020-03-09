@@ -222,3 +222,18 @@ a {
 .transition, #page, #page hr, #page h1, #page h2, #page h3, #page img, #page mark {
     transition-duration: 2.0s;
 }
+
+/********** For Economics **********/
+.visible {
+	height: auto;
+	/* overflow-y: auto; */
+}
+.invisible {
+	height: 0;
+	overflow-y: hidden;
+}
+
+#citations p {
+	text-indent: -25px;
+	margin-left: 22px;
+}

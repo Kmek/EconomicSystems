@@ -1,6 +1,6 @@
 // An array of info for pages
 
-pages = [{
+var pages = [{
     color: "#4dc48a",
     title: "Traditional Economy",
     img: "media/graph.png",
@@ -49,3 +49,14 @@ pages = [{
     example: "asdfg",
     sources: ["asdfg", "asdfg"]
 }]
+
+var lastPageInfo = {
+    title: "Choice System",
+    desc: [
+        "asdfg", 
+        "asdfg"],
+    citations: [
+        "asdfg",
+        "asdfg",
+        "asdfg"]
+}

@@ -3,6 +3,7 @@
 // Constants
 // var page = document.getElementById("page")
 var page = document.getElementById("pageLayout")
+var lastPage = document.getElementById("lastPage")
 
 /******************** Change Accent Color ********************/
 // Print Color
@@ -14,12 +15,8 @@ function changeAccent(color) {
 
 // Load Info of Page into #page div
 function loadPage(info) {
-    page.height = "100%"
-    // page.height = "0"
-    // page.overflow = "auto"
-    // page.innerHTML = ""
-
-    // console.log(page.children)
+    page.classList = "visible";
+    lastPage.classList = "invisible";
 
     page.children[0].innerHTML = info.title
     page.children[1].setAttribute("src", info.img)
@@ -45,4 +42,25 @@ function loadPage(info) {
     page.children[14].innerHTML = info.example
 
     changeAccent(info.color)
+}
+
+function loadLastPage() {
+    lastPage.classList = "visible";
+    page.classList = "invisible";
+
+    // Fill last page
+    lastPage.children[0].innerHTML = lastPageInfo.title
+    for (let i = 0; i < lastPageInfo.desc.length; i++) {
+        let p = document.createElement("p")
+        p.innerHTML = lastPageInfo.desc[i]
+        lastPage.children[1].appendChild(p)
+    }
+    for (let i = 0; i < lastPageInfo.citations.length; i++) {
+        let p = document.createElement("p")
+        p.innerHTML = lastPageInfo.citations[i]
+        lastPage.children[3].appendChild(p)
+    }
+    
+
+    changeAccent("#3ea356")
 }

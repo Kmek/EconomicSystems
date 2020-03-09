@@ -13,7 +13,7 @@ for (let i = 0; i < navTitles.length; i++) {
     if (i < navTitles.length - 1) 
         row.setAttribute("onclick", ("loadPage(pages[" + i + "])"))
     else 
-        row.setAttribute("onclick", ("console.log('todo')"))
+        row.setAttribute("onclick", ("loadLastPage()"))
 
     navigationDiv.appendChild(row)
 }
