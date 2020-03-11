@@ -3,7 +3,7 @@
 var pages = [{
     color: "#4dc48a",
     title: "Traditional Economy",
-    img: "media/graph.png",
+    img: "media/traditional-economy.PNG",
     desc: "Much like a bartering system, a <mark>Traditional Economy</mark> operates on direct production and distribution. This economy also weighs heavily on cultural and economic beliefs. There's not usually a surplus of products, as these economies tend to only make what they need. A <mark>Traditional Economy</mark> is usually the first form of economy in a country, and it usually evolves into another economy as it grows over time.",
     q1: "This economy focuses heavily on raw materials from hunting & gathering.",
     q2: "Through gathering, hunting, or preparing by hand. Goods are not produced in the most efficient way, but rather by traditional methods that are a part of a society's culture.",
@@ -14,7 +14,7 @@ var pages = [{
 }, {
     color: "#4287f5",
     title: "Market Economy",
-    img: "media/graph.png",
+    img: "media/market-economy.PNG",
     desc: "<mark>Market Economies</mark> are heavily controlled by supply and demand. For this, businesses sell to the highest price people are willing to pay for their product, while people look for the lowest price to buy products they want. Workers and employers also have some of the same characteristics in this economy, as both wish to profit the most. Capitalism, which is heavy on the characteristics of supply and demand, requires a market economy to operate on changing prices over time.",
     q1: "In this economy, natural resources, capital, and labor are the main trades.",
     q2: "By the most efficient way possible. This economy encourages people to find more efficient ways to beat out competition, such as using automation.",
@@ -25,7 +25,7 @@ var pages = [{
 }, {
     color: "#e3a740",
     title: "Command Economy",
-    img: "media/graph.png",
+    img: "media/command-economy.PNG",
     desc: "A <mark>Command Economy</mark> is controlled by the government. They make all economic decisions for the country, including allocating resources and deciding what goods should be produced, according to their own central plan. ",
     q1: "The government decides what goods and services to add to their economy.",
     q2: "The government decides when, how, and how many goods should be produced. People are hired according to the government's hiring targets & other regulations they enforce.",
@@ -36,7 +36,7 @@ var pages = [{
 }, {
     color: "#7a1e8f",
     title: "Mixed Economy",
-    img: "media/graph.png",
+    img: "media/mixed-economy.PNG",
     desc: "A <mark>Mixed Economy</mark> is an economy that combines characteristics from other economies, such as those from <mark>traditional</mark>, <mark>market</mark>, and <mark>command</mark> economies. From a <mark>Market Economy</mark>, it protects private property, is a free market, and is driven by the wants of people. From a <mark>Command Economy</mark>, the government is in charge of the larger parts of the economy, such as safeguards, international trade, and the military. Depending on what the people want, the government has control over certain industries, like health care, retirement, and banking. From a <mark>Traditional Economy</mark>, people retain traditions passed down from generation to generation, like fishing and hunting, but these traditions are no longer big enough to direct the economy. From globalization, most countries are, to some degree, a <mark>Mixed Economy</mark>.",
     q1: "asdfg",
     q2: "asdfg",
