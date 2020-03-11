@@ -164,8 +164,8 @@ li {
 }
 
 hr {
-	margin: 10px 15px;
-	border-top: 2px solid var(--accent);
+	margin: 15px 15px;
+	border-style: none;
 }
 
 button {

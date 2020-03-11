@@ -13,6 +13,8 @@ function changeAccent(color) {
     document.documentElement.style.setProperty('--accent', color)
 }
 
+
+/******************** Page Loading Functions ********************/
 // Load Info of Page into #page div
 function loadPage(info) {
     page.classList = "visible";
@@ -22,24 +24,26 @@ function loadPage(info) {
     page.children[1].setAttribute("src", info.img)
     page.children[2].innerHTML = info.desc
 
-    page.children[4].innerHTML = info.q1
-    page.children[6].innerHTML = info.q2
-    page.children[8].innerHTML = info.q3
+    page.children[5].innerHTML = info.q1
 
-    page.children[10].innerHTML = ""
+    page.children[8].innerHTML = info.q2
+
+    page.children[11].innerHTML = info.q3
+
+    page.children[14].innerHTML = ""
     for (let i = 0; i < info.positive.length; i++) {
         let bullet = document.createElement("li")
         bullet.innerHTML = info.positive[i]
-        page.children[10].appendChild(bullet)
+        page.children[14].appendChild(bullet)
     }
-    page.children[12].innerHTML = ""
+    page.children[17].innerHTML = ""
     for (let i = 0; i < info.negative.length; i++) {
         let bullet = document.createElement("li")
         bullet.innerHTML = info.negative[i]
-        page.children[12].appendChild(bullet)
+        page.children[17].appendChild(bullet)
     }
 
-    page.children[14].innerHTML = info.example
+    page.children[20].innerHTML = info.example
 
     changeAccent(info.color)
 }
@@ -56,11 +60,11 @@ function loadLastPage() {
         p.innerHTML = lastPageInfo.desc[i]
         lastPage.children[1].appendChild(p)
     }
-    lastPage.children[3].innerHTML = ""
+    lastPage.children[4].innerHTML = ""
     for (let i = 0; i < lastPageInfo.citations.length; i++) {
         let p = document.createElement("p")
         p.innerHTML = lastPageInfo.citations[i]
-        lastPage.children[3].appendChild(p)
+        lastPage.children[4].appendChild(p)
     }
     
 
