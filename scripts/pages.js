@@ -14,7 +14,7 @@ var pages = [{
 }, {
     color: "#4287f5",
     title: "Market Economy",
-    img: "media/market-economy.PNG",
+    img: "media/market-economy.png",
     desc: "<mark>Market Economies</mark> are heavily controlled by supply and demand. For this, businesses sell to the highest price people are willing to pay for their product, while people look for the lowest price to buy products they want. Workers and employers also have some of the same characteristics in this economy, as both wish to profit the most. Capitalism, which is heavy on the characteristics of supply and demand, requires a market economy to operate on changing prices over time.",
     q1: "In this economy, natural resources, capital, and labor are the main trades.",
     q2: "By the most efficient way possible. This economy encourages people to find more efficient ways to beat out competition, such as using automation.",
@@ -36,7 +36,7 @@ var pages = [{
 }, {
     color: "#7a1e8f",
     title: "Mixed Economy",
-    img: "media/mixed-economy.PNG",
+    img: "media/mixed-economy.png",
     desc: "A <mark>Mixed Economy</mark> is an economy that combines characteristics from other economies, such as those from <mark>traditional</mark>, <mark>market</mark>, and <mark>command</mark> economies. From a <mark>Market Economy</mark>, it protects private property, is a free market, and is driven by the wants of people. From a <mark>Command Economy</mark>, the government is in charge of the larger parts of the economy, such as safeguards, international trade, and the military. Depending on what the people want, the government has control over certain industries, like health care, retirement, and banking. From a <mark>Traditional Economy</mark>, people retain traditions passed down from generation to generation, like fishing and hunting, but these traditions are no longer big enough to direct the economy. From globalization, most countries are, to some degree, a <mark>Mixed Economy</mark>.",
     q1: "Similar to a <mark>Market Economy</mark>, natural resources, crafted goods, luxury goods, capital, and labor are all available. ",
     q2: "Like a <mark>Market Economy</mark>, goods and services are produced in the most efficient way possible, and these methods of production grow more efficient through competition.",
