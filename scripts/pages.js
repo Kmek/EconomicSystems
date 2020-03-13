@@ -10,7 +10,7 @@ var pages = [{
     q3: "For the close knit culture/community the members of the economy live in, usually not for larger societies.",
     positive: ["Everyone knows their role", "Cultural and religious traditions dictate the market, so little disagreements", "More sustainable than technology-based economies", "Small and more environmentally-conscious"],
     negative: ["The economy is subject to weather and environmental changes", "Vulnerable to the control of other stronger market and/or command economies"],
-    example: " Bhutan is a developing country, so they use a <mark>Traditional Economy</mark>, but this country is growing, so their economy will also change with their progress. Their economy specializes in hydropower, thanks to their plentiful rivers and other waterways. Despite this modern trade, they rely on their own cultural traditions. A little over half of their employment is in agricultural jobs (54%) even though this industry only makes up about 10% of their Gross Domestic Product. This industry is linked to poverty, as 2/3rds of those who are in poverty in Bhutan work agricultural jobs. This country is closely tied to India, one of their neighboring countries and major trading partners for hydropower. In turn India also provides them aid, as Bhutan is susceptible to natural disasters due to its geographical location. India also provides 80% of Bhutan’s imports, which mainly consist of fuels, metals, and machinery.",
+    example: " Bhutan is a developing country, so they use a <mark>Traditional Economy</mark>, but this country is growing, so their economy will also change with their progress. Their economy specializes in hydropower, thanks to their plentiful rivers and other waterways. Despite this modern trade, they rely on their own cultural traditions. A little over half of their employment is in agricultural jobs (54%) even though this industry only makes up about 10% of their Gross Domestic Product. This industry is linked to poverty, as 2/3rds of those who are in poverty in Bhutan work agricultural jobs. This country is closely tied to India, one of their neighboring countries and major trading partners for hydropower. In turn India also provides them aid, as Bhutan is susceptible to natural disasters due to its geographical location. India also provides 80% of Bhutan's imports, which mainly consist of fuels, metals, and machinery.",
 }, {
     color: "#4287f5",
     title: "Market Economy",
@@ -21,12 +21,12 @@ var pages = [{
     q3: "Those that consider the high price put out by sellers to be the lowest price on the market. Goods and services are open to everyone to buy, but only those who are willing to pay the price.",
     positive: ["The most desired good are produced often (thanks to supply and demand)", "Goods are produced in more efficient ways", "New products can be made by anyone & added into the economy"],
     negative: ["The market is a competition (people can be at a disadvantage financially, politically, etc)", "Not everyone is taken care of", "Some are forced to work menial jobs to support their family rather than receiving a higher education"],
-    example: "Hong Kong operates under an open <mark>Market Economy</mark>. Under this economy, everyone’s private property is protected by law. People are allowed to own and open their own businesses. Labor codes are enforced, but only to keep everyone safe, and they aren’t too invasive or controlling. Trade taxes and other tariffs are kept low to encourage everyone to trade. The government only has control of the cost of residential rent, so almost all prices aren’t controlled by the government. Because of its open market, Hong Kong invests and trades globally. China is Hong Kong’s biggest trading partner, as in 2008 they exported 48.5% of goods and imported 46.6% of goods with China. Hong Kong mainly imports raw materials and semi-manufactured goods, mainly exporting electrical machinery and other appliances. ",
+    example: "Hong Kong operates under an open <mark>Market Economy</mark>. Under this economy, everyone's private property is protected by law. People are allowed to own and open their own businesses. Labor codes are enforced, but only to keep everyone safe, and they aren't too invasive or controlling. Trade taxes and other tariffs are kept low to encourage everyone to trade. The government only has control of the cost of residential rent, so almost all prices aren't controlled by the government. Because of its open market, Hong Kong invests and trades globally. China is Hong Kong's biggest trading partner, as in 2008 they exported 48.5% of goods and imported 46.6% of goods with China. Hong Kong mainly imports raw materials and semi-manufactured goods, mainly exporting electrical machinery and other appliances. ",
 }, {
     color: "#e3a740",
     title: "Command Economy",
     img: "media/command-economy.PNG",
-    desc: "A <mark>Command Economy</mark> is controlled by the government. They make all economic decisions for the country, including allocating resources and deciding what goods should be produced, according to their own central plan. This economy is much more controlled, but that also means that it doesn’t allow for much freedom.",
+    desc: "A <mark>Command Economy</mark> is controlled by the government. They make all economic decisions for the country, including allocating resources and deciding what goods should be produced, according to their own central plan. This economy is much more controlled, but that also means that it doesn't allow for much freedom.",
     q1: "The government decides what goods and services to add to their economy.",
     q2: "The government decides when, how, and how many goods should be produced. People are hired according to the government's hiring targets & other regulations they enforce.",
     q3: "The government distributes goods however they see fit, according to their own plan.",
@@ -49,10 +49,19 @@ var pages = [{
 var lastPageInfo = {
     title: "Choice System",
     desc: [
-        "asdfg", 
-        "asdfg"],
+        "I believe that a <mark>Mixed Economy</mark> is the best economy. This type of economy has a mix of the characteristics of a <mark>Traditional Economy</mark>, <mark>Market Economy</mark>, and a <mark>Command Economy</mark>. This makes it so that the economy is still a free market, so anyone can sell goods at their own chosen price. This also means that anyone can buy any goods within the market with little restriction, as long as they are willing to pay the chosen price. Because of this freedom, <mark>Mixed Economies</mark> are still driven by the laws of supply and demand, where the wants of the people direct the products produced in the economy. This could also be because I live in the United States, a country that uses a <mark>Mixed Economy</mark>, so I prefer what I know and what I was raised in."],
     citations: [
-        "asdfg",
-        "asdfg",
-        "asdfg"]
+        'Amadeo, Kimberly. "Command Economy, Its Characteristics, Pros, and Cons." The Balance, Dotdash, 7 Dec. 2019, www.thebalance.com/command-economy-characteristics-pros-cons-and-examples-3305585.',
+        'Amadeo, Kimberly. "Market Economy, Its Characteristics, Pros, and Cons, with Examples." The Balance, Dotdash, 4 Mar. 2020, www.thebalance.com/market-economy-characteristics-examples-pros-cons-3305586.',
+        'Amadeo, Kimberly. "Mixed Economy With Pros, Cons, and Examples." The Balance, Dotdash, 11 Feb. 2020, www.thebalance.com/mixed-economy-definition-pros-cons-examples-3305594.',
+        'Amadeo, Kimberly. "Traditional Economy With Its Characteristics, Pros, Cons, and Examples." The Balance, Dotdash, 11 Mar. 2020, www.thebalance.com/traditional-economy-definition-examples-pros-cons-3305587.',
+        'Amadeo, Kimberly. "US Economy Fast Facts and Summary." The Balance, Dotdash, 6 Mar. 2020, www.thebalance.com/us-economy-facts-4067797.',
+        '"Belarus." 2019 Index Of Economic Freedom, The Heritage Foundation, 2019, www.heritage.org/index/country/belarus.',
+        'Guichard, Aurelien. "United States." OEC, The Observatory of Economic Complexity, 2017, oec.world/en/profile/country/usa/.',
+        'Hadzinski, Paval. "Belarus." OEC, The Observatory of Economic Complexity, 2017, oec.world/en/profile/country/blr/.',
+        '"Hong Kong Trade, Exports and Imports." Economy Watch: Follow The Money, Economywatch.com, 15 Mar. 2010, www.economywatch.com/world_economy/hong-kong/export-import.html.',
+        '"Hong Kong." 2019 Index Of Economic Freedom, The Heritage Foundation, 2019, www.heritage.org/index/country/hongkong.',
+        '"United States." 2019 Index Of Economic Freedom, The Heritage Foundation, 2019, www.heritage.org/index/country/unitedstates.',
+        '"The World Bank In Bhutan." World Bank, World Bank Group, 17 Oct. 2019, www.worldbank.org/en/country/bhutan/overview.'
+    ]
 }

@@ -63,7 +63,9 @@ function loadLastPage() {
     lastPage.children[4].innerHTML = ""
     for (let i = 0; i < lastPageInfo.citations.length; i++) {
         let p = document.createElement("p")
-        p.innerHTML = lastPageInfo.citations[i]
+        let citation = lastPageInfo.citations[i]
+        citation = citation.replace("www.", "<br>www.")
+        p.innerHTML = citation
         lastPage.children[4].appendChild(p)
     }
     
