@@ -15,6 +15,8 @@ function changeAccent(color) {
 
 
 /******************** Page Loading Functions ********************/
+var exampleOrder = ["gdp", "life_expectancy", "literacy_rate", "poverty_rate", "labor_rate", "unemployment_rate", "military_spending", "major_industry", "imports", "exports"]
+
 // Load Info of Page into #page div
 function loadPage(info) {
     page.classList = "visible";
@@ -44,6 +46,9 @@ function loadPage(info) {
     }
 
     page.children[20].innerHTML = info.example
+    for (let i = 0; i < exampleOrder.length; i++) {
+        page.children[21].rows[i].children[1].innerHTML = info[exampleOrder[i]]
+    }
 
     changeAccent(info.color)
 }

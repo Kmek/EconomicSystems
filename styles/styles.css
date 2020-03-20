@@ -103,27 +103,29 @@ body {
 /********** Table Properties **********/
 
 table {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 
 th, td {
-	border-collapse: collapse;
-	padding: 10px;
+    padding: 10px;
+    border: 1px solid var(--accent);
 }
 
 th {
-	height: 40px;
 	color: var(--accent);
-	font-size: 20px;
+    font-weight: bold;
 }
 
 tr {
-	text-align: center;
+    text-align: center;
 }
 
 td {
     font-size: 16px;
-    /* border: 1px solid black; */
 }
 
 /********** Base Components **********/
@@ -219,7 +221,7 @@ a {
 }
 
 /********** Transitions **********/
-.transition, #page, #page hr, #page h1, #page h2, #page h3, #page img, #page mark {
+.transition, #page, #page hr, #page h1, #page h2, #page h3, #page img, #page mark, th, td {
     transition-duration: 2.0s;
 }
 
