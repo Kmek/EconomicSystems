@@ -97,11 +97,19 @@ var lastPageInfo = {
         'Amadeo, Kimberly. "Traditional Economy With Its Characteristics, Pros, Cons, and Examples." The Balance, Dotdash, 11 Mar. 2020, www.thebalance.com/traditional-economy-definition-examples-pros-cons-3305587.',
         'Amadeo, Kimberly. "US Economy Fast Facts and Summary." The Balance, Dotdash, 6 Mar. 2020, www.thebalance.com/us-economy-facts-4067797.',
         '"Belarus." 2019 Index Of Economic Freedom, The Heritage Foundation, 2019, www.heritage.org/index/country/belarus.',
-        'Guichard, Aurelien. "United States." OEC, The Observatory of Economic Complexity, 2017, oec.world/en/profile/country/usa/.',
-        'Hadzinski, Paval. "Belarus." OEC, The Observatory of Economic Complexity, 2017, oec.world/en/profile/country/blr/.',
+        '"Belarus - Military Expenditure (% of GDP)." Index Mundi, IndexMundi, 2018, www.indexmundi.com/facts/belarus/indicator/MS.MIL.XPND.GD.ZS.',
+        '"Belarus." Central Intelligence Agency: The World Factbook, Central Intelligence Agency, 13 Mar. 2020, www.cia.gov/library/publications/the-world-factbook/geos/print_bo.html.',
+        '"Bhutan Military Stats." NationMaster, NationMaster.com, 2020, www.nationmaster.com/country-info/profiles/Bhutan/Military.',
+        '"Bhutan." Central Intelligence Agency: The World Factbook, Central Intelligence Agency, 5 Mar. 2020, www.cia.gov/library/publications/the-world-factbook/geos/print_bt.html.',
+        'Guichard, Aurelien. "United States." OEC, The Observatory of Economic Complexity, 2017, <br>oec.world/en/profile/country/usa/.',
+        'Hadzinski, Paval. "Belarus." OEC, The Observatory of Economic Complexity, 2017, <br>oec.world/en/profile/country/blr/.',
+        '"Hong Kong Literacy." Index Mundi, IndexMundi, 30 June 2015, www.indexmundi.com/hong_kong/literacy.html.',
         '"Hong Kong Trade, Exports and Imports." Economy Watch: Follow The Money, Economywatch.com, 15 Mar. 2010, www.economywatch.com/world_economy/hong-kong/export-import.html.',
         '"Hong Kong." 2019 Index Of Economic Freedom, The Heritage Foundation, 2019, www.heritage.org/index/country/hongkong.',
+        '"Hong Kong." Central Intelligence Agency: The World Factbook, Central Intelligence Agency, 15 Mar. 2020, www.cia.gov/library/publications/the-world-factbook/geos/print_hk.html.',
+        '"United States Literacy - Demographics." Index Mundi, IndexMundi, 30 June 2015, www.indexmundi.com/united_states/literacy.html.',
         '"United States." 2019 Index Of Economic Freedom, The Heritage Foundation, 2019, www.heritage.org/index/country/unitedstates.',
+        '"United States." Central Intelligence Agency: The World Factbook, Central Intelligence Agency, 16 Mar. 2020, www.cia.gov/library/publications/the-world-factbook/geos/print_us.html.',
         '"The World Bank In Bhutan." World Bank, World Bank Group, 17 Oct. 2019, www.worldbank.org/en/country/bhutan/overview.'
     ]
 }
